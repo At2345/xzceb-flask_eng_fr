@@ -24,7 +24,7 @@ def englishtofrench(word):
 
     return translation['translations'][0]['translation']
 
-def englishtofrench(word):
+def frenchtoenglish(word):
     """This class does french to english translation"""
 
     url_lt='https://api.au-syd.language-translator.watson.cloud.ibm.com/instances/98eba734-0a37-4a92-ba67-9ca4a7766005'
